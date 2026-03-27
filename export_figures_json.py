@@ -54,4 +54,9 @@ for b in bundles:
         difficulty=b.get("difficulty", ""),
     ))
 (OUT / "bundles_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
-print(f"\nDone! {len(figures)} figures exported to {OUT}")
+
+# Save hero trace bundle for custom SVG renderer
+(OUT / "trace_bundle_hero.json").write_text(json.dumps(hero, indent=2, default=str), encoding="utf-8")
+print(f"  Exported: trace_bundle_hero.json")
+
+print(f"\nDone! {len(figures)} figures + hero bundle exported to {OUT}")
