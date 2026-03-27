@@ -38,6 +38,8 @@ figures = {
 }
 
 for name, fig in figures.items():
+    # Strip template to avoid cross-version Plotly incompatibility
+    fig.update_layout(template=None)
     path = OUT / f"{name}.json"
     path.write_text(fig.to_json(), encoding="utf-8")
     print(f"  Exported: {path.name} ({path.stat().st_size // 1024}KB)")

@@ -31,7 +31,10 @@ def load_figure(name: str):
     path = FIGURES_DIR / f"{name}.json"
     if not path.exists():
         return None
-    return pio.from_json(path.read_text(encoding="utf-8"))
+    fig = pio.from_json(path.read_text(encoding="utf-8"))
+    # Re-apply template on the target runtime to avoid cross-version issues
+    fig.update_layout(template="plotly_white")
+    return fig
 
 @st.cache_data
 def load_summary():
