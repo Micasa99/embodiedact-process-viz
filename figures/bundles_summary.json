@@ -1,0 +1,128 @@
+[
+  {
+    "run_id": "pid_overshoot_success_2iter",
+    "problem_id": "eng_cs_014",
+    "domain": "Control Systems (PID)",
+    "is_success": true,
+    "iterations": 2,
+    "total_tokens": 11312,
+    "difficulty": "hard"
+  },
+  {
+    "run_id": "pid_settling_success_3iter",
+    "problem_id": "eng_cs_022",
+    "domain": "Control Systems (PID)",
+    "is_success": true,
+    "iterations": 3,
+    "total_tokens": 16254,
+    "difficulty": "hard"
+  },
+  {
+    "run_id": "fea_beam_success_2iter",
+    "problem_id": "eng_se_009",
+    "domain": "Structural Engineering (FEA)",
+    "is_success": true,
+    "iterations": 2,
+    "total_tokens": 12252,
+    "difficulty": "hard"
+  },
+  {
+    "run_id": "fea_stress_failure_3iter",
+    "problem_id": "eng_se_017",
+    "domain": "Structural Engineering (FEA)",
+    "is_success": false,
+    "iterations": 3,
+    "total_tokens": 15407,
+    "difficulty": "hard"
+  },
+  {
+    "run_id": "ode_stiff_failure_3iter",
+    "problem_id": "sci_diff_035",
+    "domain": "Differential Equations (Stiff ODE)",
+    "is_success": false,
+    "iterations": 3,
+    "total_tokens": 16712,
+    "difficulty": "hard"
+  },
+  {
+    "run_id": "ode_nan_success_2iter",
+    "problem_id": "sci_diff_041",
+    "domain": "Differential Equations (ODE/IVP)",
+    "is_success": true,
+    "iterations": 2,
+    "total_tokens": 9245,
+    "difficulty": "medium"
+  },
+  {
+    "run_id": "signal_fft_success_1iter",
+    "problem_id": "eng_sp_003",
+    "domain": "Signal Processing (FFT)",
+    "is_success": true,
+    "iterations": 1,
+    "total_tokens": 5175,
+    "difficulty": "easy"
+  },
+  {
+    "run_id": "digital_logic_success_1iter",
+    "problem_id": "eng_dd_002",
+    "domain": "Digital Design (Logic)",
+    "is_success": true,
+    "iterations": 1,
+    "total_tokens": 5456,
+    "difficulty": "easy"
+  },
+  {
+    "run_id": "chem_thermo_success_1iter",
+    "problem_id": "sci_thermo_008",
+    "domain": "Chemistry (Thermodynamics)",
+    "is_success": true,
+    "iterations": 1,
+    "total_tokens": 4840,
+    "difficulty": "easy"
+  },
+  {
+    "run_id": "optim_gradient_success_4iter",
+    "problem_id": "eng_misc_007",
+    "domain": "Numerical Optimization",
+    "is_success": true,
+    "iterations": 4,
+    "total_tokens": 18767,
+    "difficulty": "hard"
+  },
+  {
+    "run_id": "optim_nonconvex_failure_5iter",
+    "problem_id": "eng_misc_019",
+    "domain": "Numerical Optimization",
+    "is_success": false,
+    "iterations": 5,
+    "total_tokens": 20124,
+    "difficulty": "hard"
+  },
+  {
+    "run_id": "antenna_pattern_success_3iter",
+    "problem_id": "eng_ad_011",
+    "domain": "Antenna Design (Optimization)",
+    "is_success": true,
+    "iterations": 3,
+    "total_tokens": 15667,
+    "difficulty": "hard"
+  },
+  {
+    "run_id": "robot_path_success_2iter",
+    "problem_id": "eng_rob_005",
+    "domain": "Robotics (Path Planning)",
+    "is_success": true,
+    "iterations": 2,
+    "total_tokens": 11399,
+    "difficulty": "medium"
+  },
+  {
+    "run_id": "scibench_calc_success_2iter",
+    "problem_id": "sci_calc_012",
+    "domain": "Mathematics (Calculus)",
+    "is_success": true,
+    "iterations": 2,
+    "total_tokens": 9106,
+    "difficulty": "medium"
+  }
+]
